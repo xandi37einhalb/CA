@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-12-16 14:23+0100\n"
+"PO-Revision-Date: 2015-12-17 09:46+0100\n"
 "Language-Team: Support (support@theme-junkie.com)\n"
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -232,7 +232,7 @@ msgstr ""
 msgid ""
 "Please add full profile link, for example https://twitter.com/theme_junkie/"
 msgstr ""
-"Bitte gib den vollständigen Profil Linnk an, bspw. https://twitter.com/"
+"Bitte gib den vollständigen Profil Link an, bspw. https://twitter.com/"
 "theme_junkie/"
 
 #: inc/customizer.php:92
@@ -402,7 +402,7 @@ msgstr "Textfarbe"
 
 #: inc/customizer.php:396 inc/customizer.php:438
 msgid "Heading color"
-msgstr "&Uml;berschrift Farbe"
+msgstr "Überschrift Farbe"
 
 #: inc/customizer.php:412 inc/customizer.php:454
 msgid "Link hover color"
@@ -448,7 +448,7 @@ msgstr "Text font"
 
 #: inc/customizer.php:561
 msgid "Heading font"
-msgstr "&Uuml;berschrift font"
+msgstr "Überschrift font"
 
 #: inc/customizer.php:573
 msgid "Content Layout"
@@ -517,7 +517,7 @@ msgstr "Relativ (vor 1 Woche)"
 
 #: inc/customizer.php:664
 msgid "Related Posts"
-msgstr "&Auml;Ähnliche Beiträge"
+msgstr "Ähnliche Beiträge"
 
 #: inc/customizer.php:670
 msgid "Show related posts"
