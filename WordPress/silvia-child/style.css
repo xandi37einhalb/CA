@@ -54,4 +54,6 @@ h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
     color: #2196F3;
 }
 
-#main article:nth-child(3n+1) { clear: both; }
+#main article:nth-of-type(3n+1) { clear: both; }
+
+#main header:after { clear: both; }
