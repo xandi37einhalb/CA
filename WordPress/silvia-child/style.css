@@ -59,3 +59,9 @@ h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
 #main header:after { clear: both; }
 
 .page-header p { text-align: center; }
+
+.layout-1c .content-area-with-sidebar {
+    width: 65.6108597285%;
+    float: left;
+    margin-right: 3.1674208145%;
+}

@@ -21,5 +21,20 @@ add_action( 'after_setup_theme', 'silvia_child_theme_setup', 11 );
  * @since 1.0
  */
 function silvia_child_theme_setup() {
-	// Add your custom functions here.
+	function silvia_newssidebar_init() {
+
+		register_sidebar(
+			array(
+				'name'          => __( 'News Sidebar', 'silvia' ),
+				'id'            => 'newstechnik',
+				'description'   => __( 'Technik News Sidebar auf rechter Seite', 'silvia' ),
+				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</aside>',
+				'before_title'  => '<h3 class="widget-title">',
+				'after_title'   => '</h3>',
+			)
+		);
+
+	}
+	add_action( 'widgets_init', 'silvia_newssidebar_init' );
 }
