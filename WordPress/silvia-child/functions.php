@@ -21,11 +21,11 @@ add_action( 'after_setup_theme', 'silvia_child_theme_setup', 11 );
  * @since 1.0
  */
 function silvia_child_theme_setup() {
+	//additional sidebars for cycling-adcentures.org
 	function silvia_newssidebar_init() {
-
 		register_sidebar(
 			array(
-				'name'          => __( 'News Sidebar', 'silvia' ),
+				'name'          => __( 'News Sidebar Technik', 'silvia' ),
 				'id'            => 'newstechnik',
 				'description'   => __( 'Technik News Sidebar auf rechter Seite', 'silvia' ),
 				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -36,9 +36,31 @@ function silvia_child_theme_setup() {
 		);
 		register_sidebar(
 			array(
-				'name'          => __( 'News Sidebar', 'silvia' ),
+				'name'          => __( 'News Sidebar Reise', 'silvia' ),
 				'id'            => 'newsreise',
 				'description'   => __( 'Reise News Sidebar auf rechter Seite', 'silvia' ),
+				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</aside>',
+				'before_title'  => '<h3 class="widget-title">',
+				'after_title'   => '</h3>',
+			)
+		);
+		register_sidebar(
+			array(
+				'name'          => __( 'News Sidebar Rennen', 'silvia' ),
+				'id'            => 'newsrennen',
+				'description'   => __( 'Rennen Sidebar auf rechter Seite', 'silvia' ),
+				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</aside>',
+				'before_title'  => '<h3 class="widget-title">',
+				'after_title'   => '</h3>',
+			)
+		);
+		register_sidebar(
+			array(
+				'name'          => __( 'News Sidebar Alle', 'silvia' ),
+				'id'            => 'newsalle',
+				'description'   => __( 'Alle News Sidebar auf rechter Seite', 'silvia' ),
 				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 				'after_widget'  => '</aside>',
 				'before_title'  => '<h3 class="widget-title">',
@@ -48,4 +70,17 @@ function silvia_child_theme_setup() {
 
 	}
 	add_action( 'widgets_init', 'silvia_newssidebar_init' );
+
+	// Enable theme-layouts extensions.
+	add_theme_support( 'theme-layouts',
+		array(
+			'1c'   => __( '1 Column Wide (Full Width)', 'silvia' ),
+			'2c-l' => __( '2 Columns: Content / Sidebar', 'silvia' ),
+			'2c-r' => __( '2 Columns: Sidebar / Content', 'silvia' ),
+			'2c-r-news' => __( 'News 2 Columns: Sidebar / Content', 'silvia' )
+		),
+		array( 'customize' => false, 'default' => '1c' )
+	);
+
+
 }

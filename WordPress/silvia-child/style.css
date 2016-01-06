@@ -72,3 +72,6 @@ h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
 		display: none;
 	}
 }
+
+.entry-meta-news time { float:left; }
+.entry-meta-news .entry-author { float:right; }
