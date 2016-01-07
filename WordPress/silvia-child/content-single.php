@@ -4,7 +4,7 @@
 <?php
 	// News als Content mit Sidebar und nicht als Post behandeln
 	if ($type == 'news') {
-		the_title( '<h1 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '>', '</h1>' );
+		the_title( '<h1 ' . hybrid_get_attr( 'entry-title' ) . '>', '</h1>' );
 	} else {
 ?>
 		<div class="entry-post">
