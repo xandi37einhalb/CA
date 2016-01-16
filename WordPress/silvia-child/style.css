@@ -133,6 +133,8 @@ h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
 }
 .entry-meta-news time { float:left; }
 .entry-meta-news .entry-author { float:right; }
+.entry-meta-news .cat-links { clear: both; }
+.entry-meta-news .tag-links { clear: both; }
 @media (min-width: 240px) and (max-width: 767px) {
   .entry-meta-news .entry-author { clear: both; float:left; }
 }

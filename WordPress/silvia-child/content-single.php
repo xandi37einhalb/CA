@@ -3,8 +3,17 @@
 
 <?php
 	// News als Content mit Sidebar und nicht als Post behandeln
-	if ($type == 'news') {
-		the_title( '<h1 ' . hybrid_get_attr( 'entry-title' ) . '>', '</h1>' );
+	$categoryIdWorkshops = 41;
+	$hasSidebar = false;
+	$titlePrefix = '';
+	if ($type == 'news') $hasSidebar = true;
+	if (has_category( $categoryIdWorkshops, $post )) {
+		$hasSidebar = true;
+		$titlePrefix = 'Workshop: ';
+	}
+	
+	if ($hasSidebar) {
+		the_title( '<h1 ' . hybrid_get_attr( 'entry-title' ) . '>' . $titlePrefix, '</h1>' );
 	} else {
 ?>
 		<div class="entry-post">
@@ -30,7 +39,7 @@
 			?>
 		
 		</div>
-		<?php if ($type == 'news') { ?>
+		<?php if ($hasSidebar) { ?>
 		<br clear="all" />
 		<div class="entry-meta-news">
 		<?php silvia_posted_on(); ?>
@@ -45,7 +54,7 @@
 			endif;
 		?>
 
-	<?php if ($type <> 'news') { ?>
+	<?php if (!$hasSidebar) { ?>
 	</div>
 	<div class="entry-meta">
 		<?php the_title( '<h1 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '>', '</h1>' ); ?>

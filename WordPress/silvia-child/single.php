@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 <?php
+	$categoryIdWorkshops = 41;
 	$content_class = 'content-area';
 	$type = get_post_type();
 	if ($type == 'news') $content_class = 'content-area-with-sidebar';
+	if (has_category( $categoryIdWorkshops, $post )) $content_class = 'content-area-with-sidebar';
 ?>
 	<?php if ( has_excerpt() ) : ?>
 		<header class="page-header">
@@ -23,6 +25,9 @@
 <?php
 	if ($type == 'news') {
 		get_sidebar('news');
+	}
+	if (has_category( $categoryIdWorkshops, $post )) {
+		get_sidebar('workshops');
 	}
 ?>
 <?php get_footer(); ?>
