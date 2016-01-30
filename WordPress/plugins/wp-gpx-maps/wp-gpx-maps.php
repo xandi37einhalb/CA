@@ -198,8 +198,8 @@ function handle_WP_GPX_Maps_Shortcodes($attr, $content='')
 {
 
 	$error = '';
-
 	$gpx =                findValue($attr, "gpx",                "",                          		 "");
+	$totalaltimeter =     findValue($attr, "totalaltimeter",     "",                          		 "");
 	$w =                  findValue($attr, "width",              "wpgpxmaps_width",           		 "100%");
 	$mh =                 findValue($attr, "mheight",            "wpgpxmaps_height",          		 "450px");
 	$mt =                 findValue($attr, "mtype",              "wpgpxmaps_map_type",        		 "HYBRID");
@@ -331,7 +331,6 @@ function handle_WP_GPX_Maps_Shortcodes($attr, $content='')
 	$isGpxUrl = (preg_match('/^(http(s)?\:\/\/)/', trim($gpx)) == 1);
 
 	if ((!isset($points_maps) || $points_maps == '') && $gpx != '')	{
-	//if (true)	{
 	
 		$sitePath = sitePath();
 		
@@ -369,11 +368,17 @@ function handle_WP_GPX_Maps_Shortcodes($attr, $content='')
 		$min_ele = $points->minEle;
 		$max_time = $points->maxTime;
 		$min_time =  $points->minTime;
-		$total_ele_up = $points->totalEleUp;
+		// override total altimeter
+		if ($totalaltimeter) {
+			$total_ele_up = $totalaltimeter;
+		}
+		else {
+			$total_ele_up = $points->totalEleUp;
+		}
 		$total_ele_down = $points->totalEleDown;
 		$avg_speed = $points->avgSpeed;
 		$tot_len = $points->totalLength;
-			
+
 		if (is_array ($points_x_lat))
 		foreach(array_keys($points_x_lat) as $i) {
 			
