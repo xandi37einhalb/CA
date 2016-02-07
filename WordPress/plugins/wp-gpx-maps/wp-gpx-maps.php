@@ -730,7 +730,7 @@ function handle_WP_GPX_Maps_Shortcodes($attr, $content='')
 				$dummy = ( defined('WP_SITEURL') ) ? WP_SITEURL : get_bloginfo('url');
 				$gpxurl = $dummy.$gpxurl;
 			}		
-			$output.="<a href='$gpxurl' target='_new'>".__("GPX Datei speichern", "wp-gpx-maps")."</a>";
+			$output.="<a href='$gpxurl' target='_new'>".__("GPX", "wp-gpx-maps")."</a>";
 		}
 		$output .= "</div>";
 	}
