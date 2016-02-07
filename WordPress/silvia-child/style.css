@@ -141,3 +141,11 @@ h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
 
 /* FancyBox Titel ausblenden */
 #fancybox-title-over { display: none !important; }
+
+/* Margin unter GPS-Download */
+.wpgpxmaps_summary { margin-bottom: 20px; }
+
+/* Zeilenumbruch nach Kommentarfeldern */
+.comment-respond p {
+	clear: both;
+}
