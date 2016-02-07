@@ -18,7 +18,7 @@
 							$url = get_the_author_meta('url');
 							$urlparsed = parse_url(get_the_author_meta('url'));
 							if (preg_match('/cycling-adventures/', $urlparsed['host'])) {
-								print '<a href="' . $url . '" target="_blank">Mehr über ' . get_the_author_meta('first_name') . ' bei Cycling Adventures Rennrad Reisen</a>';
+								print '<a href="' . $url . '" target="_blank">Mehr über ' . esc_attr( get_the_author() ) . ' bei Cycling Adventures Rennrad Reisen</a>';
 							}
 							else {
 								print '<a href="' . $url . '" target="_blank">' . $urlparsed['host'] . '</a>';							
