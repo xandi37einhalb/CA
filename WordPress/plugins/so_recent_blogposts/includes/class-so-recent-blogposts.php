@@ -24,7 +24,7 @@ class StessaOnda_Recent_Blogposts {
 	 * @since 1.0.0
 	 */
 	function stessaonda_recent_blogposts( $atts ) {
-		
+		setlocale(LC_ALL, 'de_CH.UTF-8');
 		$atts	= shortcode_atts( array(
 									'jsonurl'	=> 'jsonurl'
 								), $atts );
@@ -53,15 +53,15 @@ class StessaOnda_Recent_Blogposts {
 				}
 			}
 			$return .= '<div class="four columns">';
-			$return .= '<div class="bloglink_date">';
-			$return .= $date->format('d.m.Y');
-			$return .= '</div>';
+			$return .= '<p class="bloglink_date">';
+			$return .= strftime('%d. %B', $date->format('U'));
+			$return .= '</p>';
 			if ($thumb_url) {
 				$return .= '<a href="' . $blog_object['link'] . '" target="_blank">';
 				$return .= '<img src="' . $thumb_url . '" . alt="' . $title . '" title="' . $title . '" />';
 				$return .= '</a>';
 			}
-			$return .= '<h3 class="post_title">';
+			$return .= '<h3 class="post_title blog_title">';
 			$return .= '<a href="' . $blog_object['link'] . '" target="_blank">';
 			$title = '[kein Titel]';
 			if (isset($blog_object['title']['rendered'])) {
