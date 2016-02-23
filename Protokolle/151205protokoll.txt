@@ -1,0 +1,329 @@
+Beginn: 7.50
+Stessaonda - gleiche Wellenlänge.
+
+Strategische Ausrichtung / Zweck:
+Firmenziel: Projektabwicklung, vorrangig in der Reisebranche, nicht beschränkt auf Rad
+
+Kompetenzen:
+Lukas: Unternehmer, seit 1999 klink (Informatik, Websites, Layoutverarbeitung, Datenbanken)
+Xandi: Versicherungen
+Lutz: (Geschäfts)leitungserfahrung, Personalumgang, organistorisch-administrative Tätigkeit
+Roli: operatives Geschäft (neue Ideen, Optimierung im Prozessablauf)
+Lorraine: juristisches Wissen
+Ruth: Büroleitung, macht Briefkasten- zur richtigen Firma. Weberfahrung, Finanzen und Buchhaltung
+
+Werte:
+Respekt gegenüber uns untereinander, Partnern, Kunden, Natur. Nachhaltiger Umgang mit Ressourcen 
+	und Umwelt an erster Stelle.
+
+Radreisen als erstes Projekt und Referenzprodukt.
+Website, Datenbank, SocialMedia, SEO, Google Analytics.
+gutes Marketing
+gute Organisation
+gute Abklärung juristischer Probleme (Namensrechte)
+
+Angebot eine Reise anzubieten.
+Inkasso und Abwicklung läuft über Stessaonda
+Gewinnbeteiligung.
+
+Konzeption als Serviceplattform. Kein reiner Fokus auf Radreisen.
+AI: Leitbild erstellen
+
+Voraussichtlich keine Reisesicherungsscheine.
+Garantie im Hintergrund muss da sein. Über Versicherung möglich. Kein Versand an Kunden nötig.
+AI: Kosten für Versicherungslösung einpreisen.
+
+Subfirma nicht nötig.
+Lizenz als Reiseorganisation nötig.
+Voraussetzungen des technischen Leiters.
+AI: Wirtschaftsberater klärt das.
+
+Reisen sind MwSt befreit.
+
+----------------------------------------
+Treffen mit Wirtschaftsberater (Lukas, Ruth):
+GmbH in Italien deutlich flexibler als in der Schweiz.
+Anteile:
+	100 Scheine à € 800 = € 80.000
+	je 30 Scheine an Lukas, Lutz, Roli
+	10 Scheine an Ruth (Arbeitsleistung, Computer, Geld)
+	€ 72.000 flüssig
+Sonderstellung Südtirols bzgl Gewinnsteuer ändert sich.
+Italien bewertet Gewinn weniger drastisch als Schweiz -> Gewinnreduktion durch Dividenen in CH
+-> finanzielles Polster in der Firma zur Absicherung.
+Gewinnsteuer: 24 %.
+Restgewinn + Geld in der Firma: Figurativ mit 4.5% verzinst und von der Steuerlast abgezogen.
+Weitere 2.68% Gewinnsteuer, die wegfallen, wenn die FIrma noch 2015 gegründet wird.
+Anwesenheit aller notwendig zur Gründung.
+Wirtschaftsberater macht Statutenvorschlag
+Bennenung eines Verwalters: Lutz.
+Jeder muss 1/4 noch vor dem notariellen Akt auf ein EU-Konto einzahlen: Rolis Konto.
+AI: Codice fiscale erstellen.
+Notarieller Termin zur Gründung noch im Dezember.
+AI: Ruth: Kontoeröffnung bei der Volksbank (eBanking).
+----------------------------------------
+Italienisches Gesellschaftsrecht:
+Gesellschafter haben ein Vorkaufsrecht auf Anteile.
+In den Statuten: Vorkaufsrecht auch für Barbara.
+Nachträgliche Änderungen: je ca € 1.000
+Eine Vollversammlung pro Jahr notwendig.
+
+Keine substantielle Beteiligung von Xandi, wenn Solidaritätsbeteiligung. Bindung auch ohne Anteile.
+Zu große Aufteilung fördert administrativen Aufwand.
+
+Einlagen vs. Arbeit für Abgeltung.
+
+Haftung der GmbH:
+Im Rahmen der eingelegten Gelder, außer bei grober Fahrlässigkeit oder vorherigen Dingen.
+Risiko ist überschaubar.
+Verletzungen, Todesfälle: Versichern.
+Wer ist Veranstalter: Stessaonda oder jemand anderes?
+Veranstalter:
+  Stessa onda: nur für unsere Projekte
+  andere Organisatoren: nur Backoffice, AGB, Websiteerstelltung, aber Haftung beim Organisator
+	Abwicklung nicht direkt über die Firma.
+  Cycling adventures: Riskmanagement notwendig. Abklärungen notwendig.
+
+Risiken zusammentragen und einschätzen: selbst, Versicherung, juristisch.
+Wer haftet? Firma, Guide vor Ort.
+Ziel: kein Gewinn und kein Verlust.
+Auflösung der Gesellschaft -> Statuten.
+AI: Risikosammlung. Lutz.
+AI: in der Folge Risken abklären.
+
+AI: Kosten für Gründung: Wirtschaftsberater, Notar, jährliche Kosten für Buchführung.
+
+Firma ist automatisch vorsteuerabzugsberechtigt.
+  evtl. interessant: Zwischenhändler für Alé zu Quaeldich
+
+----------------------------------------
+Finanzierung und Budget:
+€ 72.000 liquide, abzüglich Firmengründung.
+Laufende Kosten bis Ende 2017 damit decken:
+  Lohn Ruth
+  Miete
+  Wirtschaftsberater
+  Investitionen Radreisen
+  Telefon / Internet
+
+Ruth wird zu einem großen Teil von klink finanziert. 40% Stessaonda, 60% klink.
+Synergie: Vollzeitpräsenz. Keine zeitliche Abgrenzung möglich.
+Gehalt brutto: € 24.000 pro Jahr. -> € 48.000 bis Ende 2017.
+Ruth gesamt: € 60.000 pro Jahr, dh klink zahlt € 36.000 pro Jahr an Stessaonda.
+ Anstellung zu 100% über Stessa onda.
+Versicherung ist abhängig vom Umsatz.
+Miete: Büro von Ruth mit einem Webkollegen. Kosten?
+
+2018 müssen knapp € 40.000 reinkommen (Fixkosten).
+Wahrscheinlichkeit, dass klink Ruth nicht mehr braucht? Nicht abschätzbar.
+
+----------------------------------------
+Abgrenzung klink / Stessaonda / Cycling adventures:
+Lukas wird Arbeit an Ruth geben.
+aktuell: Websiteerstellung gegen Lohn.
+Neubewertung 2018 / 2019 nach einer ersten Entwicklungsphase.
+
+Hauptziel: Perspektive mit verbessertem Backoffice. Ein gutes Produkt anbieten.
+----------------------------------------
+Pause: 9.37 - 10.20
+----------------------------------------
+Abgrenzung: Wer macht was?
+Zuständigkeiten:
+Verwalter: ?
+Geschäftsführer: Bennenung von 3 Geschäftsführern. "Vorsitzender der Geschäftsleitung". Autonome 
+  Zeichnungsberechtigung.
+AI: Jeder sollte zeichnungsberechtigt sein. Evtl reinnehmen: Doppelunterschriften oder 
+  Gesellschafterbeschluss notwendig ab bestimmter Höhe.
+AI: Aufgaben, besondere Pflichten des ersten Geschäftsführers (Verwalters) und Abgrenzung zu 
+  den anderen Geschäftsführern. Risiko am besten auf alle verteilen, abklären mit Willi. Lukas. 
+  vgl: http://www.sizilien-recht.com/de/gesellschaftsrecht_italien.html#Die_italienische_GmbH
+Verträge zu den Projekten mit den Organisatoren.
+Verträge mit den Guides.
+Abwicklung über digitale Unterschriften.
+Unterzeichnung ohne Präsenz sollte möglich sein.
+Riskmanagement: Lutz.
+operativer Teil: Kontakte mit Guides, Hotels, Kunden: Roli.
+Marketing: Roli, Lukas.
+Organisationsstruktur, Personal, Strategieentwicklung, Prozessmanagement (Überwachung): Lutz .
+Finanzen, Buchhaltung: Lutz, Ruth.
+Webentwicklung, technische Umsetzung: Lukas. in Zukunft evtl auch Roli.
+Rechtliche Situation (Haftung bei schweren Unfällen, namensrechtlich, Nutzung von Kontakten):
+  extern -> Willi anfragen, ob er einen Kontakt hat.
+Versicherungen: Xandi (extern).
+AI: Aufstellung von Versicherungen, Xandi.
+Reisesicherungsscheine streichen.
+----------------------------------------
+IT:
+Bedürfnisse?
+Ablage für Abläufe und Riskmanagement.
+Check von SourceTree und HipChat.
+----------------------------------------
+Ende Vormittag: 11.11
+Beginn Nachmittag: 15.43
+Ablösung Quäldich:
+AI: Rechtlich klären: Kaltakquise (Nutzung Emailadressen). Deutsches vs italienisches Recht.
+  1. Wie stellt sich Jan die Kommunikation mit den Kunden vor? - Aufklärung der Kunden.
+  2. Teilnehmer unserer Reisen kontaktieren. Dürfen wir das?
+  3. Teilnehmer mit persönlichem Kontakt auf neue Mailadresse, geänderte Kontaktdaten hinweisen.
+AI: Kontakt zu Jan.
+  Botschaft: keine einfache Situation, aber fair bleiben. Kunden sollten Reibungen möglichst
+  nicht mitbekommen.
+----------------------------------------
+Zielgruppe:
+  Breiter als bisher. zB 120 km / 900 Hm. Flacher bzw. etwas langsamer.
+  Website textlich abgespeckt. Problemlos mehrsprachige Website produzierbar. -> Englisch.
+AI: Website auch auf Englisch umsetzen.
+Gebiet: Südfrankreich.
+Südtirolreise: 3 verschiedene Ausprägungen.
+Außendarstellung: Ausschreibung, Blog. Darstellung. Respekt -> Radreisen für jeden Leistungsstand.
+  Unser Wert ist Naturgenuss, nicht schnell/hoch fahren.
+Preis kann eher höher sein, etwa EUR 35-40,- pro Teilnehmer und Tag als Gewinnkalkulation.
+  Bei Ausbuchung € 9000 bis 10.000 Gewinn.
+Reiseplanung:
+  Toskana: durchaus auch eine einfachere Reise zusätzlich.
+----------------------------------------
+Terminplanung 2017/2018:
+2017:
+weitere Reisen:
+ Xandi: eine Reise mit "Publikumsmagnet"
+ Côte d'Azur evtl nur einmal. (Nachtrag: bleibt drin).
+ Bergtraining weglassen. Ggfs nachschießen.
+ Allgäu von Christian Böck.
+AI: Vogesen/Schwarzwald, Interesse abklären, Kurztrip HaPe. Lutz.
+ Tauernrundfahrt redimensionieren auf 30 Radler und 7 Tage.
+AI: Ungeführte Südtirol-Tour mit GPS-Tracks und Garmin von Brixen aus. Beratung durch Ruth.
+  -> mit Ruth abklären. Standortvorteil ausnutzen.
+2018: 
+ Anpassungen aus 2017er Kalender.
+ Schweiz-Rundfahrt.
+Printprodukte als Werbung:
+ evtl in Zeitschriften.
+----------------------------------------
+AI: Mit wem können wir Kooperationen aufbauen?
+  zB: Consulreisen (Wels, Ö-Vertrieb Hürzeler).
+----------------------------------------
+Guide / Helfer:
+Danke und Wertschätzung an Reiseorganisatoren und Guides.
+Fix:
+ Peter Klausen
+ Frederik
+ Reto
+ Xandi
+ Flo
+ Lorraine
+ Christian Böck (Allgäu)
+ Cristian Gemmato (ketterechts)
+Anfragen:
+ Peter Uthmann
+ Manuel Steiner
+ Tobias Zimmermann
+ HaPe
+ Reini (Emmendingen)
+ Nathalie
+ Gerhard
+ Hannes
+ Otto
+ Andreas S.
+ Tobsi
+ Michael Haase (auch Orga)
+ Julia und Torsten
+ Owingerjan (über paelzman)
+ Thomasg (evtl., über Peter für ruhigere Angebote)
+ Sille (Begleitservice + Massageservice) + Spaghetti-Jan
+ Rainer
+AI: Guides anfragen Mitte 2016.
+Verträge mit den Guides und sonstigen Helfern.
+ Guideregeln
+ EH-Kurs (evtl Martin (Côte d'Azur, Arzt in Südtirol)
+AI-IT: Mitarbeiterverzeichnis mit AUfforderung zB zur Auffrischung EH-Kurs, geguidete Reisen.
+----------------------------------------
+Begleitfahrer:
+ Günther Kronschläger
+ Daniel Wöckinger (TRF)
+ Christoph GÖweil (TRF)
+ Klausen-Clan
+ Sille
+ Peter Uthmann
+ Erich Schneider (Tobsi)
+ Wolfgang Hemelmayr
+----------------------------------------
+AI: Rechnungstellung- und Stornobedingungen, AGBs. -> Vorlagen/Musterbedingungen, rechtlich. 
+ -> Steffen (Jura, Reisebüro)
+----------------------------------------
+Entlohnung Guides / Begleitfahrer:
+Bezahlt wird:
+ Übernachtung mit Halbpension
+ Reisespesen (Sprit + Maut, Bahnfahrt 2. Klasse oder km-Geld gedeckelt auf zB €200,-).
+ Taschengeld (?)
+ Trikot + Hose ein Satz pro Person pro Jahr mit Einsatz.
+ weitere Kleidung zum EK. Guides werden angefragt.
+AI: Guidekonditionen Championstraining. Roli.
+Guidekleidung von käuflicher Kleidung abgrenzen (Farbe und/oder evtl Design).
+AI: Guidekleidung einpreisen. Alé Produkte.
+AI: Trikotdesign. evtl Ruth? Stessa Onda und cycling adventures.
+----------------------------------------
+AI: Instagram Account. 
+Website soll auf Instagram zugreifen können (Guide-Galerie, Reisen) dazu noch Twitter, Facebook,
+ Strava.
+AI: Hashtagstrategie + Erklärung. Roli
+Hashtagverwendung auch für Teilnehmer.
+Blog und Social Media als Informations- und Reisewebsite.
+Ende: 18.58
+----------------------------------------
+Beginn: 08.48.
+AI: Vorkaufsrecht: primär auf Lukas, dann der Rest. Über 49% muss einstimmig genehmigt werden.
+Terminplanung 2017:
+Terminwahl für Ligurien im Frühjahr sehr entscheidend.
+Alpenüberquerung statt TRF: 50 Leute über die Alpen an die Adria. Alpenüberquerung. Passau-Salzburg-Triest/Venedig.
+Relaxed-Serie "ausweiten" - 4 Standorte, abwechselnd. -> Xandi.
+ 2017: Mont Ventoux.
+ Serie: Traumpässe relaxed.
+ Timmelsjoch, Ventoux, Gotthard (Tremola), Glockner, Stilfser Joch, Galibier.
+AI: Namenskonzept für die Reisen. zB TdF/Giro.
+Radfahren und Kultur. zB an der Donau (Passau-Wien-Budapest).
+Norwegen.
+Nordkap.
+Cycling adventures. bike adventures. hiking adventures...
+AI: Domainregistrierung. Was kommt noch in Frage?
+MTB: evtl über Ruth bzw. Kontakt von Roli. Techniktrainings.
+Techniktraining auch für Rennrad.
+Escape - Flucht aus dem Alltag in ein verlängertes Wochenende.
+ Serie mit verschiedenen Destinationen.
+----------------------------------------
+IT Konzept:
+AI: Inhalte Reiseumfrage definieren
+Nice to have: Zentrale Benutzerverwaltung (eigener Login im Wordpress nötig).
+----------------------------------------
+Firmenfarbe? Oder eine Farbe pro Sparte? Corporate Identity. 
+ Grün -> png (Kelly Grün)
+ Blau
+ Rot
+AI: Farbe und Logo gemeinsam entscheiden.
+Stessaonda-Logo ohne Farbe bzw Grundfarbe nach Sparte unterschiedlich.
+AI: Go Live: 1. August (sportlich). 1. September (realistisch). Buchungsstart!
+ evtl. Teaserinhalte auf landingpages / Interesseauslösende Seite im August / früher.
+ Mouthwatering. Juni - Start immer wieder neue / kleine Inhalten.
+AI: Logo und Layout März / April. Ab Mai Landingpages / Teaserpages / Trikots.
+ "Hier entsteht bekanntes neu"
+Keine Stessaonda-Trikots auf quaeldich-Reisen.
+AI: Standards für Reiseorganisation und -ablauf, Guideregeln. Vorlage definieren.
+----------------------------------------
+Zusammenarbeit mit Cristian:
+Entschädigung für seine Arbeit?
+Klare Aufgaben definieren.
+Welchen Wert bringt uns ein Video?
+Nutztung, um Bekanntheitsgrad zu erreichen?
+ Mit einem Blogbeitrag die Community informieren, dass ein neue Reiseanbieter am Markt ist.
+Nimmt ketterechts unserem Blog Leser?
+Platz bezahlt von Werbepartnern.
+Vereinbarung: Rahmenbedingungen definieren. In Einzelfällen aushandeln mit dem Reiseorganisator.
+----------------------------------------
+Folgende Treffen:
+AI: Gemeinsamer Kalender. GoogleKalender? iCal? Lutz.
+AI: Gründungstermin. Dezember 2015 / Januar 2016.
+Termin: 24.-28.2. Chiavari
+
+AI: Stessaonda Mailadresse einrichten. Lukas.
+ vorname@stessaonda.net
+
+AI: Roli: Protokoll online stellen und AIs extrahieren.
