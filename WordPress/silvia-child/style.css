@@ -149,3 +149,7 @@ h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
 .comment-respond p {
 	clear: both;
 }
+
+/* Updated und Author: Ausblenden, nur für Google relevant */
+.post-date-hide { display: none; }
+.post-author-hide { display: none; }

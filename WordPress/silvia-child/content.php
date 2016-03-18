@@ -46,5 +46,6 @@ if ( $layout == '3-col' || $layout == '4-col' ) {
 	</div>
 
 	<meta itemprop="datePublished" content="<?php echo get_the_date(); ?>">
-
+	<span class="post-date-hide updated"><?php the_date(); ?></span>
+	<span class="author post-author-hide"><?php the_author(); ?></span>
 </article><!-- #post-## -->

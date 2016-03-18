@@ -13,7 +13,7 @@
 	}
 	
 	if ($hasSidebar) {
-		the_title( '<h1 ' . hybrid_get_attr( 'entry-title' ) . '>' . $titlePrefix, '</h1>' );
+		the_title( '<h1 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '>' . $titlePrefix, '</h1>' );
 	} else {
 ?>
 		<div class="entry-post">
@@ -59,6 +59,7 @@
 	<div class="entry-meta">
 		<?php the_title( '<h1 class="entry-title" ' . hybrid_get_attr( 'entry-title' ) . '>', '</h1>' ); ?>
 		<?php silvia_posted_on(); ?>
+		<span class="post-date-hide updated"><?php the_date(); ?></span>
 		<?php get_template_part( 'loop', 'nav' ); // Loads the loop-nav.php template  ?>
 	</div>
 	<?php } ?>
