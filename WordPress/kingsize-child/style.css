@@ -1,0 +1,214 @@
+/*
+ Theme Name:   Kingsize Child
+ Theme URI:    http://http://www.kingsizetheme.com/
+ Description:  Kingsize Child Theme
+ Author:       Lukas Kamber
+ Author URI:   http://stessaonda.net
+ Template:     kingsize
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         responsive-layout
+ Text Domain:  kingsize-child
+*/
+
+#slidedescription p { font: normal 1.9em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; line-height: 1.2; margin-bottom: 17px; }
+h3.claim_rennradreisen  { font: normal 2.1em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+#buttontext  { font-size: 18px; text-transform: uppercase; }
+h2 { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; }
+h2.post_title { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; }
+h3 { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; }
+h3.post_title { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; }
+h3.hrf-title { font-size: 16px !important; }
+p { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; color: #FFF !important; }
+ul { font-family: 'Proxima Nova Soft W03 Reg'; color: #FFF !important; }
+li { font-size: 16px; }
+label { font-size: 16px; }
+a { color: #FFF !important; }
+p.bloglink_date { display: block; width:100%; color: #FFF; text-align: center; margin-bottom: 10px; }
+h3.blog_title { display: block; width:100%; text-align: center; }
+.hrf-title.close-faq span {
+	width: 25px !important;
+	height: 25px !important;
+	top: 5px !important;
+}
+
+@media screen and (min-width:1300px) {
+	#slidedescription h1 { font:normal 3.7em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	h2.title_rennradreisen { font:normal 3.7em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+}
+@media screen and (min-width:1200px) and (max-width:1299px) {
+	#slidedescription h1 { font:normal 3.5em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	h2.title_rennradreisen { font:normal 3.5em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+}
+@media screen and (min-width:1100px) and (max-width:1199px) {
+	#slidedescription h1 { font:normal 3.35em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	h2.title_rennradreisen { font:normal 3.35em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	#slidedescription p { font: normal 1.8em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 2em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:1099px) {
+	#slidedescription h1 { font:normal 3.1em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2.5px; }
+	h2.title_rennradreisen { font:normal 3.1em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2.5px; }
+	#slidedescription p { font: normal 1.7em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.7em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:968px) {
+	#slidedescription h1 { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#slidedescription p { font: normal 1.6em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.6em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:917px) {
+	#slidedescription h1 { font:normal 3.0em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 3.0em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#slidedescription p { font: normal 1.6em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.6em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:866px) {
+	#slidedescription h1 { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#slidedescription p { font: normal 1.5em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal;margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.5em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:815px) {
+	#slidedescription h1 { font:normal 2.75em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 2.75em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:479px) {
+	h3.claim_rennradreisen  { font: normal 1.2em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; margin-top: 0px;}
+	.slider-desc { display:block; }
+	#buttontext  { font-size: 13px; text-transform: uppercase; }
+	h2 { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h3 { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	p { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; line-height: 1.6; color: #FFF !important; }
+	.container { background-image:  url(https://www.cycling-adventures.org/wp-content/themes/kingsize-child/images/content_back_60.png) !important; }
+}
+
+.highlight-black {
+	border-radius: 10px;
+	-moz-border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+
+div#slidecounter {
+	min-width: 60px;
+}
+
+h1.title-page {
+	text-transform: none;
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	letter-spacing:2.5px;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #646464;
+}
+
+h2.title-page {
+	text-transform: none;
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	letter-spacing:2.5px;
+}
+
+#mainNavigation h5.title-page {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	text-transform: none;
+	letter-spacing:2px;
+}
+
+#mainNavigation h5.title-page:hover {
+	color: #FFF;
+}
+
+#mainNavigation ul li ul li a {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+}
+
+#buttontext  {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#mainNavigation ul li ul li a {
+	text-transform: none;
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	font-size: 16px;
+	letter-spacing:2px;
+}
+
+#mainNavigation ul li ul li {
+	width: 180px;
+}
+
+ul.sub-menu {
+	opacity: 1 !important;
+}
+
+hr {
+	margin-bottom: 10px;
+}
+
+div.copyright-footer {
+	border-top: 1px solid #646464;
+	font: normal 14px 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif;
+	line-height: 1.6;
+	padding: 12px 0px;
+}
+
+footer {
+	padding: 0px 12px;
+}
+
+.container a:hover { text-decoration: underline; }
+
+/* Tabellen */
+.fullwidth-page table {
+	border: none;
+}
+
+.fullwidth-page table td {
+	text-align: left;
+	border: none;
+	background: none;
+	font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; color: #FFF;
+	color: #FFF;
+	padding: 9px 0px 5px 0px;
+}
+
+.fullwidth-page .termine > tbody > tr:first-child > td:first-child {
+	width: 180px;
+}
+
+/* Formulare */
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea { 
+background-color: #1b1b1b; font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif; border: 1px solid #666666; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: #666666; display: block; font-size: 16px; margin: 0 0 12px 0; padding: 7px; height: 30px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; }
+input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize { font-size: 17px; padding: 4px 6px; }
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus { background: #222; outline: none !important; border-color: #FFF; }
+input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled] { background-color: #ddd; }
+textarea { height: auto;}
+
+input[type="submit"] { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; bold; color: #FFF !important; }
+
+#cssmenu > ul > li > a > span {
+  font-size: 18px;
+}
+
+#cssmenu ul ul li.even {
+	background-color: #404040;
+}
+
+#cssmenu ul ul li.odd {
+	background-color: #404040;
+}
+
+#cssmenu ul ul a {
+	font-size: 16px;
+}
