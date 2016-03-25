@@ -1,0 +1,216 @@
+/*
+ Theme Name:   Roxima Child
+ Theme URI: http://www.cssigniter.com/ignite/themes/roxima
+ Description:  Cycling Adventures Landing Page
+ Author:       Stessaonda.net
+ Author URI:   https://stessaonda.net
+ Template:     roxima
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  roxima-child
+*/
+input,
+textarea {
+  display: inline-block;
+  font-size: inherit;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  font-weight: bold;
+  padding: 6px 12px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 2px;
+  background-image: none;
+  font-family: "Futura BT W01 Light", sans-serif;
+  -webkit-transition: color 0.18s ease, background-color 0.18s ease;
+  transition: color 0.18s ease, background-color 0.18s ease;
+  background-color: #f8f8f8;
+  border: 1px solid #dedede;
+}
+
+.item-price {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Futura BT W01 Light", sans-serif;
+  letter-spacing: 0em;
+  line-height: normal;
+  margin: -4px 0 3px;
+  text-align: center;
+}
+
+.item-pricing-featured {
+  border: 0px solid #ED145B;
+  padding-top: 38px;
+  padding-bottom: 40px;
+  margin-top: -15px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, .widget-title, h4, h5, h6 {
+  line-height: normal;
+  margin: 0 0 15px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Futura BT W01 Light", sans-serif;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.btn, .comment-reply-link,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+  display: inline-block;
+  margin: 0;
+  line-height: normal;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.18s background-color ease, color 0.18s ease, 0.18s border-color ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  width: auto;
+  height: auto;
+  background-image: none;
+  font-family: "Futura BT W01 Light", sans-serif;
+  padding: 15px 44px 14px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0em;
+  background-color: #ED145B;
+  color: #FFF;
+}
+
+.navigation a {
+  text-transform: uppercase;
+  color: #393939;
+  letter-spacing: 0em;
+  font-family: "Futura BT W01 Light", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: transparent;
+  /* Global Menu Link Styles */
+}
+
+.mobile-trigger {
+  text-transform: uppercase;
+  font-family: "Futura BT W01 Light", sans-serif;
+  color: #515151;
+  display: none;
+}
+
+.item-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0em;
+  font-family: "Futura BT W01 Light", sans-serif;
+  font-weight: bold;
+  margin: 0 0 10px;
+  font-style: normal;
+  display: block;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 36px;
+  font-family: ""Futura BT W01 Light", sans-serif;
+  line-height: normal;
+  margin: 0 0 45px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  letter-spacing: 0em;
+}
+
+#paging li span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 12px 18px;
+  font-family: "Futura BT W01 Light", sans-serif;
+  font-weight: bold;
+  margin: 0 3px 5px 0;
+  line-height: normal;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #515151;
+}
+
+.social-icon:hover {
+  opacity: 1;
+  color: #19171B;
+  border-color: #19171B;
+  background-color: #19171B;
+  
+}
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Futura BT W01 Light", sans-serif;
+  line-height: normal;
+  margin: 0 0 15px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  letter-spacing: 0em;
+  }
+  
+.section-subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  opacity: 0.9;
+  margin: -10px 0 40px;
+}
+.main-slider .section-title {
+  text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Futura BT W01 Light", sans-serif;
+  line-height: normal;
+  margin: 0 0 15px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  letter-spacing: 0em;
+  }
+  
+.main-slider .section-subtitle {
+  text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  opacity: 0.9;
+  margin: -10px 0 40px;
+}
+
+.map-toggle {
+  position: absolute;
+  top: 60px;
+  z-index: 10;
+  right: 0;
+  font-family: "Futura BT W01 Light", sans-serif;
+  padding: 8px 20px;
+  font-weight: bold;
+  letter-spacing: 0em;
+  border-radius: 2px;
+  color: #FFF;
+  background-color: #ED145B;
+}
+
+.widget_recent_entries ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  font-size: 11px;
+  display: block;
+  padding: 11px 0;
+  border-bottom: 1px solid #dedede;
+}
+
