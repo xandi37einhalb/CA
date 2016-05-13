@@ -46,8 +46,9 @@ h1, h2, h3, .widget-title, h4, h5, h6 {
   margin: 0 0 15px 0;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: -0.05em;
+  font-family: "Futura BT W01 Light", sans-serif;
+  letter-spacing: 0em;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -378,9 +379,9 @@ button {
   padding: 15px 44px 14px;
   font-size: 18px;
   font-weight: bold;
-  letter-spacing: -0.05em;
-  background-color: #ED145B;
-  color: #FFF;
+  letter-spacing: 0em;
+  background-color: #9cb6d3;
+  color: #000;
 }
 .btn:hover, .comment-reply-link:hover, .btn:active, .comment-reply-link:active, .btn:focus, .comment-reply-link:focus,
 input[type="button"]:hover,
@@ -622,9 +623,9 @@ button.mfp-arrow:hover {
 .navigation a {
   text-transform: uppercase;
   color: #393939;
-  letter-spacing: 0.1em;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  letter-spacing: 0em;
+  font-family: "Futura BT W01 Light", sans-serif;
+  font-size: 14px;
   font-weight: bold;
   border-color: transparent;
   /* Global Menu Link Styles */
@@ -699,7 +700,7 @@ button.mfp-arrow:hover {
 
 .mobile-trigger {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Futura BT W01 Light", sans-serif;
   color: #515151;
   display: none;
 }
@@ -802,9 +803,10 @@ button.mfp-arrow:hover {
 }
 
 .item-title {
-  font-size: 20px;
-  letter-spacing: -0.05em;
-  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0em;
+  font-family: "Futura BT W01 Light", sans-serif;
   font-weight: bold;
   margin: 0 0 10px;
   font-style: normal;
@@ -890,7 +892,7 @@ button.mfp-arrow:hover {
 }
 
 .item-pricing-featured {
-  border: 3px solid #ED145B;
+  border: 1px solid #ED145B;
   padding-top: 38px;
   padding-bottom: 40px;
   margin-top: -15px;
@@ -898,17 +900,17 @@ button.mfp-arrow:hover {
 }
 
 .item-price {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: -0.05em;
+  font-family: "Futura BT W01 Light", sans-serif;
+  letter-spacing: 0em;
   line-height: normal;
   margin: -4px 0 3px;
   text-align: center;
 }
 .item-price .recurring {
   font-size: 11px;
-  font-family: "Lato", sans-serif;
+  font-family: "Futura BT W01 Light", sans-serif;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: normal;
@@ -927,7 +929,7 @@ button.mfp-arrow:hover {
 .item-features li:before {
   font-family: FontAwesome;
   content: '\f00c';
-  color: #5CC239;
+  color: #549A38;
   font-size: 18px;
   margin-right: 7px;
   position: relative;
@@ -935,7 +937,7 @@ button.mfp-arrow:hover {
 }
 .item-features li.no:before {
   content: '\f00d';
-  color: #bdbdbd;
+  color: grey;
 }
 
 .item-pricing-action {
@@ -1044,12 +1046,12 @@ button.mfp-arrow:hover {
 .hero-title {
   text-align: center;
   font-size: 36px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Futura BT W01 Light", sans-serif;
   line-height: normal;
   margin: 0 0 45px 0;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  letter-spacing: -0.05em;
+  letter-spacing: 0em;
 }
 
 .entry {
@@ -1148,7 +1150,7 @@ button.mfp-arrow:hover {
   text-transform: uppercase;
   font-size: 13px;
   padding: 12px 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Futura BT W01 Light", sans-serif;
   font-weight: bold;
   margin: 0 3px 5px 0;
   line-height: normal;
@@ -1182,9 +1184,9 @@ button.mfp-arrow:hover {
 }
 .social-icon:hover {
   opacity: 1;
-  color: #FFF;
-  border-color: #ED145B;
-  background-color: #ED145B;
+  color: #19171B;
+  border-color: #19171B;
+  background-color: #19171B;
 }
 
 /* -----------------------------------------
@@ -1363,20 +1365,20 @@ section.widget:last-child {
 
 .section-title {
   text-align: center;
-  font-size: 36px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-family: "Futura BT W01 Light", sans-serif;
   line-height: normal;
   margin: 0 0 15px 0;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  letter-spacing: -0.05em;
+  letter-spacing: 0em;
 }
 
 .section-subtitle {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 11px;
+  font-size: 14px;
   opacity: 0.9;
   margin: -10px 0 40px;
 }
@@ -1449,7 +1451,6 @@ section.widget:last-child {
   top: 0;
   left: 0;
 }
-
 .widget_ci-contact {
   position: relative;
 }
@@ -1496,10 +1497,10 @@ section.widget:last-child {
   top: 60px;
   z-index: 10;
   right: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Futura BT W01 Light", sans-serif;
   padding: 8px 20px;
   font-weight: bold;
-  letter-spacing: -0.05em;
+  letter-spacing: 0em;
   border-radius: 2px;
   color: #FFF;
   background-color: #ED145B;
@@ -1552,7 +1553,7 @@ section.widget:last-child {
 .widget_nav_menu ul li a,
 .widget_recent_entries ul li a {
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   font-size: 11px;
   display: block;
   padding: 11px 0;
