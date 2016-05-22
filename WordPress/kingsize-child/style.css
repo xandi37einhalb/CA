@@ -17,7 +17,7 @@ h3.claim_rennradreisen  { font: normal 2.1em 'Oswald', 'Helvetica Neue', 'Helvet
 #buttontext  { font-size: 18px; text-transform: uppercase; }
 h2 { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; }
 h2.post_title { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; }
-h3 { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; }
+h3 { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; clear: both; }
 h3.post_title { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; }
 h3.hrf-title { font-size: 16px !important; }
 p { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; color: #FFF !important; }
@@ -25,13 +25,18 @@ ul { font-family: 'Proxima Nova Soft W03 Reg'; color: #FFF !important; }
 li { font-size: 16px; }
 label { font-size: 16px; }
 a { color: #FFF !important; }
+a.external { color: #FFC250 !important; }
+a[href^="mailto"] { color: #FFC250 !important; }
 p.bloglink_date { display: block; width:100%; color: #FFF; text-align: center; margin-bottom: 10px; }
 h3.blog_title { display: block; width:100%; text-align: center; }
+h1.faq_title { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; clear: both; border-bottom: 1px solid #646464; }
 .hrf-title.close-faq span {
 	width: 25px !important;
 	height: 25px !important;
 	top: 5px !important;
 }
+.hrf-faq-list { margin-bottom: 20px; }
+h3.faqoverview { float: right; margin-bottom: 25px; }
 
 @media screen and (min-width:1300px) {
 	#slidedescription h1 { font:normal 3.7em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
