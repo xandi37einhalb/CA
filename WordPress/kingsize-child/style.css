@@ -27,6 +27,7 @@ label { font-size: 16px; }
 a { color: #FFF !important; }
 a.external { color: #FFC250 !important; }
 a[href^="mailto"] { color: #FFC250 !important; }
+.page_content a { color: #FFC250 !important; }
 p.bloglink_date { display: block; width:100%; color: #FFF; text-align: center; margin-bottom: 10px; }
 h3.blog_title { display: block; width:100%; text-align: center; }
 h1.faq_title { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; clear: both; border-bottom: 1px solid #646464; }
