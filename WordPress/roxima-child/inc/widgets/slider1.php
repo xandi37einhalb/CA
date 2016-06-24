@@ -83,8 +83,9 @@
 												<?php /** Ende Mod L. Kamber, lukas@cycling-adventures.org **/ ?>
 												<?php endforeach; ?>
 												<?php if ( ! empty( $slide['subtitle'] ) ): ?>
-													<p class="section-subtitle"><?php echo str_replace("|"," ", esc_html( $slide['subtitle'] )); ?></p>
+													<p class="section-subtitle"><?php echo esc_html( $slide['subtitle'] ); ?></p>
 												<?php endif; ?>
+
 												<?php if ( ! empty( $slide['button_text'] ) && ! empty( $slide['button_url'] ) ): ?>
 													<a href="<?php echo esc_url( $slide['button_url'] ); ?>" class="btn"><?php echo esc_html( $slide['button_text'] ); ?></a>
 												<?php endif; ?>

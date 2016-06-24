@@ -31,6 +31,22 @@
 
 			return $instance;
 		}
+		// This is needed for break-word ruth zemmer
+		function textWrap($text) {
+		    $new_text = '';
+		    $text_1 = explode('>',$text);
+		    $sizeof = sizeof($text_1);
+		    for ($i=0; $i<$sizeof; ++$i) {
+		        $text_2 = explode('<',$text_1[$i]);
+		        if (!empty($text_2[0])) {
+		            $new_text .= preg_replace('#([^\n\r .]{10})#i', '\\1  ', $text_2[0]);
+		        }
+		        if (!empty($text_2[1])) {
+		            $new_text .= '<' . $text_2[1] . '>';
+		        }
+		    }
+		    return $new_text;
+		}
 
 		function widget( $args, $instance ) {
 			$instance = wp_parse_args( (array) $instance, $this->defaults );
@@ -83,8 +99,10 @@
 												<?php /** Ende Mod L. Kamber, lukas@cycling-adventures.org **/ ?>
 												<?php endforeach; ?>
 												<?php if ( ! empty( $slide['subtitle'] ) ): ?>
-													<p class="section-subtitle"><?php echo str_replace("|"," ", esc_html( $slide['subtitle'] )); ?></p>
+
+													<p class="section-subtitle"><?php echo str_replace(" | ","<br />", esc_html( $slide['subtitle'] )); ?></p>
 												<?php endif; ?>
+
 												<?php if ( ! empty( $slide['button_text'] ) && ! empty( $slide['button_url'] ) ): ?>
 													<a href="<?php echo esc_url( $slide['button_url'] ); ?>" class="btn"><?php echo esc_html( $slide['button_text'] ); ?></a>
 												<?php endif; ?>

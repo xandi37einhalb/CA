@@ -13,22 +13,6 @@
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 add_action( 'customize_register', 'roxima_ca_customize_register', 101 );
 
-function textWrap($text) {
-    $new_text = '';
-    $text_1 = explode('>',$text);
-    $sizeof = sizeof($text_1); 
-    for ($i=0; $i<$sizeof; ++$i) {
-        $text_2 = explode('<',$text_1[$i]);
-        if (!empty($text_2[0])) {
-            $new_text .= preg_replace('#([^\n\r .]{25})#i', '\\1  ', $text_2[0]);
-        }
-        if (!empty($text_2[1])) {
-            $new_text .= '<' . $text_2[1] . '>';
-        }
-    }
-    return $new_text;
-}
-
 function theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
@@ -95,7 +79,7 @@ function roxima_ca_enqueue_scripts() {
 	$font_url = '';
 	/* translators: If there are characters in your language that are not supported by Montserrat and Lato, translate this to 'off'. Do not translate into your own language. */
 	if ( 'off' !== _x( 'on', 'Montserrat and Lato fonts: on or off', 'roxima-child' ) ) {
-		$font_url = add_query_arg( 'family', urlencode( 'Roboto:100,200,300,400,500,900,100italic,200italic,300italic,400italic,500italic|Roboto+Slab:400,300|Merriweather:400,700|Raleway:400,300|Vesper+Libre:400,500' ), '//fonts.googleapis.com/css' );
+		$font_url = add_query_arg( 'family', urlencode( 'Hind:400,700,600,500,300|Merriweather:400,700|Raleway:400,300|Vesper+Libre:400,500' ), '//fonts.googleapis.com/css' );
 	}
 	wp_register_style( 'roxima-google-font', esc_url( $font_url ) );
 
@@ -153,8 +137,6 @@ function roxima_ca_enqueue_scripts() {
 		'matchHeight'
 	), $theme->get( 'Version' ), true );
 
-	wp_register_script( 'ca', get_stylesheet_directory_uri() . '/js/ca.js', array('jquery'), NULL, true );
-	wp_enqueue_script( 'ca' );
 
 	/*
 	 * Enqueue
@@ -173,6 +155,7 @@ function roxima_ca_enqueue_scripts() {
 	}
 
 	wp_enqueue_script( 'roxima-front-scripts' );
+
 
 }
 

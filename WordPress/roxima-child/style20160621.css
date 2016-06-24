@@ -23,19 +23,18 @@
   border-bottom: none;
 }
 
-
-.header.stuck {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 20;
+@media (min-width: 768px) {
+  .header.stuck {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
+  .header.shrunk {
+    padding: 0px;
+    border-color: none;
+  }
 }
-.header.shrunk {
-  padding: 0px;
-  border-color: none;
-}
-
-
 
 * {
   margin: 0;
@@ -62,15 +61,13 @@ p {
 
 
 input,
-textarea,
-.caldera-grid input.form-control,
-.caldera-grid select.form-control,
-.caldera-grid textarea.form-control {
+textarea {
   display: inline-block;
   font-size: inherit;
   width: 100%;
   max-width: 100%;
-  font-weight: 300;
+  height: 50px;
+  font-weight: bold;
   padding: 6px 12px;
   box-shadow: none;
   line-height: normal;
@@ -79,35 +76,8 @@ textarea,
   font-family: 'Hind', sans-serif;
   -webkit-transition: color 0.18s ease, background-color 0.18s ease;
   transition: color 0.18s ease, background-color 0.18s ease;
-  border: 2px solid #FFF;
-  background-color: rgba(0, 0, 0, 0.25);
-  color: rgba(255, 255, 255, 0.7);
-}
-
-input,
-.caldera-grid input.form-control,
-.caldera-grid select.form-control
-{
-    height: 50px;
-    #AFA79A
-}
-
-textarea,
-.caldera-grid textarea.form-control
-{
-    height: 200px;
-}
-
-
-
-.caldera-grid input.form-control,
-.caldera-grid select.form-control,
-.caldera-grid textarea.form-control
-{
-  -webkit-transition: color 0.18s ease, background-color 0.18s ease;
-  transition: color 0.18s ease, background-color 0.18s ease;
-  border: 1px solid #D9D5D2;
-    background-color: rgba(165, 160, 148, 0.80);
+  background-color: #f8f8f8;
+  border: 1px solid #dedede;
 }
 
 form {
@@ -120,21 +90,15 @@ form {
 }
 
 
-.caldera-grid label {
-  font-family: 'Hind', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-
 @media (max-width: 767px) {
-  p, form, .caldera-grid label
+  p, form
    {
     font-size: 15px;
   }
 }
 
 .head-wrap {
+
   margin-bottom: 20px;
 }
 
@@ -221,10 +185,7 @@ h1, h2, h3, .widget-title, h4, h5, h6 {
 }
 
 
-.btn,
-.comment-reply-link,
-.caldera-grid input [type="submit"],
-.caldera-grid .btn-default,
+.btn, .comment-reply-link,
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -258,8 +219,7 @@ button {
 
 
 @media (max-width: 767px) {
-  .btn,
-  .comment-reply-link,
+  .btn, .comment-reply-link,
   input[type="button"],
   input[type="submit"],
   input[type="reset"],
@@ -267,6 +227,7 @@ button {
    {
     font-size: 12px;
     padding: 10px 20px;
+
   }
 }
 
@@ -280,12 +241,16 @@ button {
     display: table-cell;
     vertical-align:bottom;
     width: 75%;
+
   }
 
 
   .nav, .navigation {
     text-align: right;
+
   }
+
+
 
 .navigation a {
   text-transform: uppercase;
@@ -294,6 +259,8 @@ button {
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.05em;
+
+
 }
 
 /* Global Menu Link Styles */
@@ -403,28 +370,33 @@ border-bottom-color: #ECB800 !important;
   }
 }
 
-.site-tagline {
-  text-transform: none;
-  color: #fff;
-  letter-spacing: 0em;
-  font-family: 'Hind', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  padding-top: 1.0em;
-  background-color: #453E38;
-  display: inline-block;
-  line-height: normal;
-  border: none;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  box-shadow: none;
-  text-align: right;
-  vertical-align: middle;
-  text-transform: uppercase;
-  padding: 10px 20px 10px;
-  letter-spacing: 0.1em;
-  margin:0px;
+
+  .site-tagline {
+    text-transform: none;
+    color: #fff;
+    letter-spacing: 0em;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 1.0em;
+    background-color: #453E38;
+    display: inline-block;
+    line-height: normal;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: none;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 10px 20px 10px;
+    letter-spacing: 0.1em;
+    margin:0px;
+
+
 }
+
+
 
 .mobile-trigger {
   text-transform: uppercase;
@@ -434,6 +406,9 @@ border-bottom-color: #ECB800 !important;
   float:right;
   font-size: 14px;
 }
+
+
+
 
 .rowTagline {
   text-align: right;
@@ -464,7 +439,6 @@ border-bottom-color: #ECB800 !important;
     display: block;
   }
 
-
 }
 @media (max-width: 991px) {
   .main-slider {
@@ -488,7 +462,8 @@ border-bottom-color: #ECB800 !important;
     display: inline-block;
   }
 
-.mobile-trigger-before {
+  .mobile-trigger-before::before {
+    content: "Rennradreise Toskana";
     display: inline-block;
     -ms-word-wrap:  break-word;
     word-wrap:  break-word;
@@ -519,6 +494,7 @@ border-bottom-color: #ECB800 !important;
   .main.main-home {
     padding: 0;
   }
+
   .main-slider .ci-direction-nav {
     display: block;
   }
@@ -585,6 +561,13 @@ border-bottom-color: #ECB800 !important;
   .section-title {
     font-size: 1.5em;
   }
+  .section-title-mobile {
+    display: block;
+    border: 1px solid red;
+  }
+  .section-title-desctop {
+    display: none;
+  }
 }
 
 .section-subtitle::before  {
@@ -608,6 +591,14 @@ border-bottom-color: #ECB800 !important;
     text-transform: uppercase;
     line-height:1em;
   }
+  .section-title-mobile {
+    display: none;
+  }
+
+  .section-title-desctop {
+    display: block;
+    border: 1px solid red;
+  }
 
 
 
@@ -626,17 +617,14 @@ border-bottom-color: #ECB800 !important;
   font-family: 'Hind', sans-serif;
   line-height:1em;
   margin: 0 0 0px 0;
-  -ms-word-wrap: break-word;
-  word-wrap:  break-word;
+
   letter-spacing: 0.1em;
 
   }
 
-
-
-@media (max-width: 767px) {
+  @media (max-width: 767px) {
     .main-slider .section-title {
-      font-size: 2.5em;
+      font-size: 2.2em;
       line-height:1.2em;
     }
   }
@@ -658,6 +646,7 @@ border-bottom-color: #ECB800 !important;
 @media (max-width: 767px) {
   .main-slider .section-subtitle {
     font-size: 1.1em;
+
   }
 }
 
