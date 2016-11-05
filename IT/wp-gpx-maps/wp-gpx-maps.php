@@ -693,29 +693,29 @@ function handle_WP_GPX_Maps_Shortcodes($attr, $content='')
 		$output .= "<div id='wpgpxmaps_summary_".$r."' class='wpgpxmaps_summary'>";
 		if ($points_graph_dist != '' && $p_tot_len == 'true')
 		{
-			$output .= "<span class='totlen'><span class='summarylabel'>".__("Total distance", "wp-gpx-maps").":</span><span class='summaryvalue'> $tot_len</span></span><br />";
+			$output .= "<span class='totlen'><span class='summarylabel'>".__("Kilometer", "wp-gpx-maps").":</span><span class='summaryvalue'> $tot_len</span></span> - ";
 		}
 		if ($points_graph_ele != '')
 		{
 			if ($p_max_ele == 'true')
-				$output .= "<span class='maxele'><span class='summarylabel'>".__("Max elevation", "wp-gpx-maps").":</span><span class='summaryvalue'> $max_ele</span></span><br />";
+				$output .= "<span class='maxele'><span class='summarylabel'>".__("Max Höhe", "wp-gpx-maps").":</span><span class='summaryvalue'> $max_ele</span></span> - ";
 			if ($p_min_ele == 'true')
-				$output .= "<span class='minele'><span class='summarylabel'>".__("Min elevation", "wp-gpx-maps").":</span><span class='summaryvalue'> $min_ele</span></span><br />";
+				$output .= "<span class='minele'><span class='summarylabel'>".__("Min elevation", "wp-gpx-maps").":</span><span class='summaryvalue'> $min_ele</span></span> ";
 			if ($p_total_ele_up == 'true')
-				$output .= "<span class='totaleleup'><span class='summarylabel'>".__("Total climbing", "wp-gpx-maps").":</span><span class='summaryvalue'> $total_ele_up</span></span><br />";
+				$output .= "<span class='totaleleup'><span class='summarylabel'>".__("Höhenmeter", "wp-gpx-maps").":</span><span class='summaryvalue'> $total_ele_up</span></span> - ";
 			if ($p_total_ele_down == 'true')
-				$output .= "<span class='totaleledown'><span class='summarylabel'>".__("Total descent", "wp-gpx-maps").":</span><span class='summaryvalue'> $total_ele_down</span></span><br />";
+				$output .= "<span class='totaleledown'><span class='summarylabel'>".__("Total descent", "wp-gpx-maps").":</span><span class='summaryvalue'> $total_ele_down</span></span> ";
 		}
 		if ($points_graph_speed != '' && $p_avg_speed == 'true')
 		{
-			$output .= "<span class='avgspeed'><span class='summarylabel'>".__("Average speed", "wp-gpx-maps").":</span><span class='summaryvalue'> $avg_speed</span></span><br />";
+			$output .= "<span class='avgspeed'><span class='summarylabel'>".__("Average speed", "wp-gpx-maps").":</span><span class='summaryvalue'> $avg_speed</span></span> ";
 		}
 		if ($p_total_time == 'true' && $max_time > 0)
 		{		
 			$time_diff = date("H:i:s", ($max_time - $min_time));
-			$output .= "<span class='totaltime'><span class='summarylabel'>".__("Total Time", "wp-gpx-maps").":</span><span class='summaryvalue'> $time_diff</span></span><br />";			
+			$output .= "<span class='totaltime'><span class='summarylabel'>".__("Total Time", "wp-gpx-maps").":</span><span class='summaryvalue'> $time_diff</span></span> ";			
 		}
-		$output .= "</div>";
+		
 	}
 	
 	// print download link
@@ -728,7 +728,7 @@ function handle_WP_GPX_Maps_Shortcodes($attr, $content='')
 			$dummy = ( defined('WP_SITEURL') ) ? WP_SITEURL : get_bloginfo('url');
 			$gpxurl = $dummy.$gpxurl;
 		}		
-		$output.="<a href='$gpxurl' target='_new' download>".__("Download", "wp-gpx-maps")."</a>";
+		$output.="<a href='$gpxurl' target='_new' download>".__("GPX Datei laden", "wp-gpx-maps")."</a></div>";
 	}
 
 	return $output;
