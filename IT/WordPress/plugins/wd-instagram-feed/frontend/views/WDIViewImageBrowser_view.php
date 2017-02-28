@@ -405,8 +405,12 @@ public function generate_feed_styles($feed_row){
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_load_more_container{
 		display: inline-block;
 	}
-	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_filter_active{
-	  background-color: <?php echo $style['active_filter_bg_color'];?>;
+	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_filter_active_bg{
+		background-color: <?php echo $style['active_filter_bg_color'];?>;
+	}
+	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_filter_active_col{
+		color: <?php echo $style['active_filter_bg_color'];?>;
+		border-color: <?php echo $style['active_filter_bg_color'];?>;
 	}
 	<?php if($feed_row['disable_mobile_layout']=="0"){
 		?>

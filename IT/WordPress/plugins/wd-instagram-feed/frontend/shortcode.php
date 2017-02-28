@@ -14,12 +14,27 @@ add_shortcode( 'wdi_feed', 'wdi_feed' );
 // [wdi_feed id="feed_id"]
 function wdi_feed($atts,$widget_params='') {
    ob_start();
+
+  global $wdi_feed_counter;
+
+  if (defined('DOING_AJAX') && DOING_AJAX) {
+    if($wdi_feed_counter == 0){
+      $wdi_feed_counter = rand(1000,9999);
+      global $wdi_feed_counter_init;
+      $wdi_feed_counter_init = $wdi_feed_counter;
+    }
+
+    wdi_load_frontend_scripts_styles_ajax();
+  }
+  else{
     wdi_load_frontend_scripts();
     wdi_load_frontend_styles();
 
+  }
+
     require_once(WDI_DIR . '/framework/WDILibrary.php');
     
-    global $wdi_feed_counter;
+  
     $attributes = shortcode_atts( array(
         'id' => 'no_id',
     ), $atts );
@@ -118,6 +133,9 @@ function wdi_feed($atts,$widget_params='') {
         return __('Invalid feed type', "wdi");
       }
 
+
+
+
     }
 
 
@@ -137,8 +155,7 @@ function wdi_feed($atts,$widget_params='') {
       <?php
     }
 
-
-    return ob_get_clean(); 
+    return ob_get_clean();
 }
 
 
@@ -189,6 +206,52 @@ function wdi_front_end_scripts() {
     'wdi_mail_validation' => __('This is not a valid email address.', "wdi"),
     'wdi_search_result' => __('There are no images matching your search.', "wdi"),
   ));
+
+}
+
+/*load all scripts and styles directly without dependency on jquery*/
+
+function wdi_load_frontend_scripts_styles_ajax(){
+
+  wp_dequeue_script('jquery');
+
+  wp_enqueue_script('wdi_instagram',plugins_url('../js/wdi_instagram.js', __FILE__),array(), get_pro_version(), true );
+  wp_enqueue_script('wdi_lazy_load',plugins_url('../js/jquery.lazyload.min.js', __FILE__),array(), get_pro_version(),true );
+
+  wp_enqueue_script('underscore');
+  wp_enqueue_script('wdi_frontend',plugins_url('../js/wdi_frontend.js', __FILE__),array('wdi_instagram','wdi_lazy_load', 'underscore'), get_pro_version(), true);
+  wp_enqueue_script('wdi_responsive',plugins_url('../js/wdi_responsive.js', __FILE__),array("wdi_instagram"), get_pro_version(), true);
+
+  global $wdi_feed_counter_init;
+  $wdi_feed_counter_init = isset($wdi_feed_counter_init) ? $wdi_feed_counter_init : 0;
+  wp_localize_script("wdi_frontend", 'wdi_feed_counter_init',array( 'wdi_feed_counter_init' => $wdi_feed_counter_init), get_pro_version());
+
+  wp_localize_script("wdi_frontend", 'wdi_ajax',array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'ajax_response' => 1), get_pro_version());
+  wp_localize_script("wdi_frontend", 'wdi_url',array('plugin_url'=>plugin_dir_url(__FILE__),
+    'ajax_url' => admin_url( 'admin-ajax.php' )), get_pro_version());
+  wp_localize_script("wdi_frontend", 'wdi_front_messages',
+    array( 'connection_error' => __('Connection Error, try again later :(','wdi'),
+      'user_not_found'  => __('Username not found', 'wdi'),
+      'network_error'   =>__('Network error, please try again later :(', 'wdi'),
+      'hashtag_nodata' => __('There is no data for that hashtag', 'wdi'),
+      'filter_title' => __('Click to filter images by this user','wdi')
+    ), get_pro_version());
+
+  // Styles/Scripts for popup.
+  wp_enqueue_script('wdi_jquery_mobile', WDI_FRONT_URL . '/js/gallerybox/jquery.mobile.js', array(), get_pro_version());
+  wp_enqueue_script('wdi_mCustomScrollbar', WDI_FRONT_URL . '/js/gallerybox/jquery.mCustomScrollbar.concat.min.js', array(), get_pro_version());
+  wp_enqueue_style('wdi_mCustomScrollbar', WDI_FRONT_URL . '/css/gallerybox/jquery.mCustomScrollbar.css', array(), get_pro_version());
+  wp_enqueue_script('jquery-fullscreen', WDI_FRONT_URL . '/js/gallerybox/jquery.fullscreen-0.4.1.js', array(), get_pro_version());
+  /*ttt!!! gallery fullscreeni het conflict chka ?? arje stugel ete fullscreen script ka, apa el chavelacnel*/
+  wp_enqueue_script('wdi_gallery_box', WDI_FRONT_URL . '/js/gallerybox/wdi_gallery_box.js', array(), get_pro_version());
+  wp_localize_script('wdi_gallery_box', 'wdi_objectL10n', array(
+    'wdi_field_required'  => __('Field is required.', "wdi"),
+    'wdi_mail_validation' => __('This is not a valid email address.', "wdi"),
+    'wdi_search_result' => __('There are no images matching your search.', "wdi"),
+  ));
+
+
+  wdi_load_frontend_styles();
 
 }
 

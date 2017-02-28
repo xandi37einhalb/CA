@@ -1,3 +1,13 @@
+= 1.1.20 =
+New: Instagram feed displayed in AJAX-loaded content. AJAX request callback needs to call wp_footer() in the end.
+
+= 1.1.19 =
+Fixed: Strange bug in Instagram API when user feed pagination is null, causing JS errors in frontend
+
+= 1.1.18 =
+Fixed: Frontend filter colors (PRO)
+Changed: Featured plugins, brand new Mailchimp Forms WD plugin added
+
 = 1.1.17 =
 New: Option in feed settings to show small size images and low-bandwidth videos when viewed in mobile devices
 Fixed: Escaping in custom JS

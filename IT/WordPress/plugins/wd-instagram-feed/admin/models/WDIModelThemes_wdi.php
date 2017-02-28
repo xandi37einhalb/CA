@@ -63,7 +63,7 @@ class WDIModelThemes_wdi {
     'feed_wrapper_width' => '100%',
     'feed_container_width' => '100%',
     'feed_wrapper_bg_color' => '#FFFFFF',
-    'active_filter_bg_color' => '#2a5b83',
+    'active_filter_bg_color' => '#429fff',
     'header_margin' => '0px',
     'header_padding' => '5px',
     'header_border_size' => '0px',

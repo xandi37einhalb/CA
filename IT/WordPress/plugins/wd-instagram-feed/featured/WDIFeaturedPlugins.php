@@ -52,6 +52,12 @@ class WDIFeaturedPlugins
       'content' => 'Organize and publish your events in an easy and elegant way using Event Calendar WD.',
       'href' => 'https://web-dorado.com/products/wordpress-event-calendar-wd.html'
     ),
+    "mailchimp" => array(
+      'title' => 'Mailchimp Forms WD',
+      'text' => 'WordPress Mailchimp forms plugin',
+      'content' => 'Access customizable themes, custom emails, PayPal Integration and more.',
+      'href' => 'https://web-dorado.com/products/wordpress-mailchimp-wd.html'
+    ),
 
     "contact_form_bulder" => array(
       'title' => 'Contact Form Builder',
@@ -313,10 +319,6 @@ class WDIFeaturedPlugins
       background: url("<?php echo WDI_URL; ?>/featured/images/zoom.png") center center no-repeat;
     }
 
-    #main_featured_plugins_page #featured-plugins-list li.fm-import .product {
-      background: url("<?php echo WDI_URL; ?>/featured/images/fm-import.png") center center no-repeat;
-    }
-
     #main_featured_plugins_page #featured-plugins-list li.photo-gallery .product {
       background: url("<?php echo WDI_URL; ?>/featured/images/photo-gallery.png") center center no-repeat;
     }
@@ -327,6 +329,9 @@ class WDIFeaturedPlugins
 
     #main_featured_plugins_page #featured-plugins-list li.events-wd .product {
       background: url("<?php echo WDI_URL; ?>/featured/images/events-wd.png") center center no-repeat;
+    }
+    #main_featured_plugins_page #featured-plugins-list li.mailchimp .product {
+      background: url("<?php echo WDI_URL; ?>/featured/images/mailchimp.png") center center no-repeat;
     }
 
     #main_featured_plugins_page #featured-plugins-list li.faq_wd .product {

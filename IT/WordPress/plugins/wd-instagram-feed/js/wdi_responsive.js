@@ -3,6 +3,7 @@ jQuery(document).ready(function ()
 {
 
 });
+
 function wdi_responsive()
 {
 };

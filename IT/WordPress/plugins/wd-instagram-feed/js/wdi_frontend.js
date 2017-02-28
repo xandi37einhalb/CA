@@ -3,17 +3,7 @@ if (typeof wdi_front == 'undefined') {
     type: 'not_declared'
   };
 }
-jQuery(document).ready(function ()
-{
-  if (wdi_front['type'] != 'not_declared') {
-    wdi_front.clickOrTouch = wdi_front.detectEvent();
-    //initializing all feeds in the page
-    wdi_front.globalInit();
-  } else {
-    return;
-  }
 
-});
 
 
 wdi_front.detectEvent = function ()
@@ -30,8 +20,13 @@ wdi_front.globalInit = function ()
 {
   var num = wdi_front['feed_counter'];
 
-
-  for (var i = 0; i <= num; i++) {
+  if(typeof wdi_ajax.ajax_response != "undefined"){
+    var init_feed_counter = wdi_feed_counter_init.wdi_feed_counter_init;
+  }
+  else{
+    var init_feed_counter = 0;
+  }
+  for (var i = init_feed_counter; i <= num; i++) {
 
     var currentFeed = new WDIFeed(window['wdi_feed_' + i]);
 
@@ -136,7 +131,7 @@ wdi_front.globalInit = function ()
 
     window.onload = function ()
     {
-      for (var i = 0; i <= wdi_front.feed_counter; i++) {
+      for (var i = init_feed_counter; i <= wdi_front.feed_counter; i++) {
         window['wdi_feed_' + i]['nowLoadingImages'] = false;
       }
     }
@@ -510,6 +505,7 @@ wdi_front.displayFeed = function (currentFeed, load_more_number)
   // if custom filter changed then display custom data
   if (currentFeed.customFilterChanged == true) {
     var data = currentFeed.customFilteredData;
+   
     //parsing data for lightbox
     currentFeed.parsedData = wdi_front.parseLighboxData(currentFeed, true);
   }
@@ -3242,10 +3238,18 @@ WDIFeed.prototype.storeRawData = function (objects, variable)
           }
         }
         else {
+          
+          /*strange bug sometimes happening in instagram API when user feed pagination is null*/
+          if(objects[i].pagination == null){
+            objects[i].pagination = [];
+          }
+
           hash_id = objects[i].pagination.next_max_id;
           if (typeof hash_id == "undefined") {
             hash_id = "";
           }
+
+
         }
 
       if (typeof this[variable][i] == "undefined") {
@@ -3357,5 +3361,41 @@ wdi_front.updateUsersIfNecessary = function (currentFeed)
 }
 
 
+
+
+
+
+
+
+if(typeof wdi_ajax.ajax_response != "undefined"){
+  jQuery( document ).one('ajaxStop', function() {
+
+    if (wdi_front['type'] != 'not_declared') {
+
+      wdi_front.clickOrTouch = wdi_front.detectEvent();
+      //initializing all feeds in the page
+      wdi_front.globalInit();
+    } else {
+      return;
+    }
+  });
+
+
+}
+else{
+  jQuery(document).ready(function ()
+  {
+
+
+    if (wdi_front['type'] != 'not_declared') {
+      wdi_front.clickOrTouch = wdi_front.detectEvent();
+      //initializing all feeds in the page
+      wdi_front.globalInit();
+    } else {
+      return;
+    }
+
+  });
+}
 
 
