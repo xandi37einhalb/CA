@@ -97,10 +97,20 @@
 			if ( $subtitle ) {
 				?><p class="section-subtitle"><?php echo esc_html( $subtitle ); ?><?php
 			}
-			
+
 			if ( $mindestteilnehmer ) {
-			    ?><?php echo '<br><br>Mindestteilnehmerzahl: ' . esc_html( $mindestteilnehmer ) . ' Personen'; ?></p><?php
+					$lang = 'de';
+					if (class_exists('Polylang') ) {
+						$lang = strtolower(pll_current_language());
+					}
+					if ($lang == 'de') {
+					?><?php echo '<br><br>Mindestteilnehmerzahl: ' . esc_html( $mindestteilnehmer ) . ' Personen'; ?></p><?php
+					}
+					if ($lang == 'en') {
+						?><?php echo '<br><br>Minimum Number of Participants: ' . esc_html( $mindestteilnehmer ) . ' Adults '; ?></p><?php
+					}
 			}
+
 
 			?><div class="row table-pricing"><?php
 
@@ -219,9 +229,9 @@
 			$extra_padding     = $instance['extra_padding'];
 			?>
 			<p><label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title:', 'roxima' ); ?></label><input id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" class="widefat" /></p>
-			
+
 			<p><label for="<?php echo esc_attr( $this->get_field_id( 'subtitle' ) ); ?>"><?php esc_html_e( 'Subtitle:', 'roxima' ); ?></label><input id="<?php echo esc_attr( $this->get_field_id( 'subtitle' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'subtitle' ) ); ?>" type="text" value="<?php echo esc_attr( $subtitle ); ?>" class="widefat" /></p>
-			
+
 			<p><label for="<?php echo esc_attr( $this->get_field_id( 'mindestteilnehmer' ) ); ?>"><?php esc_html_e( 'Mindestteilnehmer:', 'roxima' ); ?></label><input id="<?php echo esc_attr( $this->get_field_id( 'mindestteilnehmer' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'mindestteilnehmer' ) ); ?>" type="text" value="<?php echo esc_attr( $mindestteilnehmer ); ?>" class="widefat" /></p>
 
 			<p><?php esc_html_e( 'Add as many items as you want by pressing the "Add Item" button. Remove any item by selecting "Remove me".', 'roxima' ); ?></p>
@@ -239,10 +249,10 @@
 
 									<label class="post-field-item"><?php esc_html_e( 'Subtitle:', 'roxima' ); ?>
 										<input type="text" name="<?php echo esc_attr( $this->get_field_name( 'option_subtitle' ) . '[]' ); ?>" value="<?php echo esc_attr( $options[ $i ]['subtitle'] ); ?>" class="widefat" />
-									</label>						
-									
-										
-									
+									</label>
+
+
+
 
 									<label class="post-field-item"><?php esc_html_e( 'Price (include currency symbol):', 'roxima' ); ?>
 										<input type="text" name="<?php echo esc_attr( $this->get_field_name( 'option_price' ) . '[]' ); ?>" value="<?php echo esc_attr( $options[ $i ]['price'] ); ?>" class="widefat" />
