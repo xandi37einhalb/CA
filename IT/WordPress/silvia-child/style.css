@@ -1,0 +1,155 @@
+/**
+ * Theme Name: Silvia Child
+ * Theme URI: http://link-to-your-site.com
+ * Description: A blank child theme of the Silvia parent theme.
+ * Version: 1.0
+ * Author: Your Name
+ * Author URI: http://yourdomain.com
+ * Tags: light
+ *
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Template: silvia
+ */
+
+/* Place your custom style here. */
+.main-navigation {
+    padding-bottom: 20px;
+}
+
+.site-header {
+    padding-bottom: 30px;
+}
+h1, .h1 {
+    font-size: 30px;
+}
+
+h2, .h2 {
+    font-size: 24px;
+}
+
+h2.news-list {
+    font-size: 20px;
+}
+
+h3, .h3 {
+    font-size: 20px;
+}
+
+h4, .h4 {
+    font-size: 16px;
+}
+
+h5, .h5 {
+    font-size: 14px;
+}
+
+h6, .h6 {
+    font-size: 12px;
+}
+
+a:hover {
+	text-decoration:underline
+}
+
+h1 a:hover, li.menu-item a:hover, h2 a:hover,.copyright a:hover {
+	text-decoration:none
+}
+
+.widget-title {
+  padding: 8px 0;
+}
+
+
+.single .entry-side a span:hover {
+    color: #2196F3;
+}
+
+#main article:nth-of-type(3n+1) { clear: both; }
+
+#main header:after { clear: both; }
+
+.page-header p { text-align: center; }
+
+.layout-1c .content-area-with-sidebar {
+    width: 65.6108597285%;
+    float: left;
+    margin-right: 3.1674208145%;
+}
+
+@media (min-width: 240px) and (max-width: 767px) {
+  .single .hentry {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+  .single .hentry .entry-post {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+  .single .hentry .entry-meta {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  .single .hentry .entry-meta .loop-nav {
+    display: none;
+  }
+
+  .wide-container .widget-area {
+    clear: both;
+  }
+}
+@media (min-width: 769px) {
+  .page-header p {
+    font-size: 20px;
+  }
+}
+
+.newslist {
+  padding-bottom: 20px;
+}
+@media (min-width: 769px) {
+  .newslist {
+    padding-bottom: 30px;
+  }
+}
+.entry-meta-news time { float:left; }
+.entry-meta-news .entry-author { float:right; }
+.entry-meta-news .cat-links { clear: both; }
+.entry-meta-news .tag-links { clear: both; }
+@media (min-width: 240px) and (max-width: 767px) {
+  .entry-meta-news .entry-author { clear: both; float:left; }
+}
+
+/* FancyBox Titel ausblenden */
+#fancybox-title-over { display: none !important; }
+
+/* Margin unter GPS-Download */
+.wpgpxmaps_summary { margin-bottom: 20px; }
+
+/* Zeilenumbruch nach Kommentarfeldern */
+.comment-respond p {
+	clear: both;
+}
+
+/* Updated und Author: Ausblenden, nur für Google relevant */
+.post-date-hide { display: none; }
+.post-author-hide { display: none; }

@@ -1,0 +1,714 @@
+/*
+ Theme Name:   Kingsize Child
+ Theme URI:    http://http://www.kingsizetheme.com/
+ Description:  Kingsize Child Theme
+ Author:       Lukas Kamber
+ Author URI:   http://stessaonda.net
+ Template:     kingsize
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         responsive-layout
+ Text Domain:  kingsize-child
+*/
+
+#slidedescription p { font: normal 1.9em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; line-height: 1.2; margin-bottom: 17px; }
+h3.claim_rennradreisen  { font: normal 2.1em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+#buttontext  { font-size: 18px; text-transform: uppercase; }
+h2 { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; }
+h2.post_title { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; }
+h3 { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; clear: both; }
+h3.post_title { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2px; }
+h3.hrf-title { font-size: 16px !important; }
+p { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; color: #FFF !important; }
+ul { font-family: 'Proxima Nova Soft W03 Reg'; color: #FFF !important; }
+li { font-size: 16px; }
+label { font-size: 16px; }
+a { color: #FFF !important; }
+a.external { color: #ECB800 !important; }
+a[href^="mailto"] { color: #ECB800 !important; }
+.page_content a { color: #ECB800; }
+p.bloglink_date { display: block; width:100%; color: #FFF; text-align: center; margin-bottom: 10px; }
+h3.blog_title { display: block; width:100%; text-align: center; }
+h1.faq_title { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; margin-top: 20px; letter-spacing:2px; clear: both; border-bottom: 1px solid #646464; }
+.hrf-title.close-faq span {
+	width: 25px !important;
+	height: 25px !important;
+	top: 5px !important;
+}
+.hrf-faq-list { margin-bottom: 20px; }
+h3.faqoverview { float: right; margin-bottom: 25px; }
+
+@media screen and (min-width:1300px) {
+	#slidedescription h1 { font:normal 3.7em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	h2.title_rennradreisen { font:normal 3.7em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+}
+@media screen and (min-width:1200px) and (max-width:1299px) {
+	#slidedescription h1 { font:normal 3.5em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	h2.title_rennradreisen { font:normal 3.5em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+}
+@media screen and (min-width:1100px) and (max-width:1199px) {
+	#slidedescription h1 { font:normal 3.35em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	h2.title_rennradreisen { font:normal 3.35em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:3px; }
+	#slidedescription p { font: normal 1.8em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 2em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:1099px) {
+	#slidedescription h1 { font:normal 3.1em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2.5px; }
+	h2.title_rennradreisen { font:normal 3.1em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; letter-spacing:2.5px; }
+	#slidedescription p { font: normal 1.7em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.7em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:968px) {
+	#slidedescription h1 { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#slidedescription p { font: normal 1.6em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.6em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:917px) {
+	#slidedescription h1 { font:normal 3.0em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 3.0em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#slidedescription p { font: normal 1.6em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal; margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.6em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:866px) {
+	#slidedescription h1 { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 2.9em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#slidedescription p { font: normal 1.5em 'Proxima Nova Soft W03 Reg', 'Helvetica Neue', 'Helvetica'; font-weight: normal;margin-bottom: 17px; }
+	h3.claim_rennradreisen  { font: normal 1.5em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:815px) {
+	#slidedescription h1 { font:normal 2.75em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h2.title_rennradreisen { font:normal 2.75em 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	#buttontext  { font-size: 18px; text-transform: uppercase; }
+}
+@media screen and (max-width:479px) {
+	h3.claim_rennradreisen  { font: normal 1.2em 'Oswald', 'Helvetica Neue', 'Helvetica'; margin-bottom: 17px; margin-top: 0px;}
+	.slider-desc { display:block; }
+	#buttontext  { font-size: 13px; text-transform: uppercase; }
+	h2 { font: normal 18px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	h3 { font: normal 16px 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif; }
+	p { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; line-height: 1.6; color: #FFF !important; }
+	.container { background-image:  url(https://www.cycling-adventures.org/wp-content/themes/kingsize-child/images/content_back_60.png) !important; }
+}
+
+/*BEGIN RESPONSIVE RUTH*/
+
+
+@media (min-width: 768px) {
+  .col-sm-height {
+    display: table-cell;
+    float: none !important;
+  }
+    .itemContent, .itemHead {
+    font-size:12px;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-height {
+    display: table-cell;
+    float: none !important;
+  }
+  .itemContent, .itemHead {
+    font-size:14px;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-height {
+    display: table-cell;
+    float: none !important;
+  }
+    .itemContent, .itemHead {
+    font-size:14px;
+  }
+}
+/*END RESPONSIVE RUTH*/
+
+.highlight-black {
+	border-radius: 10px;
+	-moz-border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+
+div#slidecounter {
+	min-width: 60px;
+}
+
+h1.title-page {
+	text-transform: none;
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	letter-spacing:2.5px;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #646464;
+}
+
+h2.title-page {
+	text-transform: none;
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	letter-spacing:2.5px;
+}
+
+#mainNavigation h5.title-page {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	text-transform: none;
+	letter-spacing:2px;
+}
+
+#mainNavigation h5.title-page:hover {
+	color: #FFF;
+}
+
+#mainNavigation ul li ul li a {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+}
+
+#buttontext  {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#mainNavigation ul li ul li a {
+	text-transform: none;
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica' !important;
+	font-size: 16px;
+	letter-spacing:2px;
+}
+
+#mainNavigation ul li ul li {
+	width: 180px;
+}
+
+ul.sub-menu {
+	opacity: 1 !important;
+}
+
+hr {
+	margin-bottom: 10px;
+}
+
+div.copyright-footer {
+	border-top: 1px solid #646464;
+	font: normal 14px 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif;
+	line-height: 1.6;
+	padding: 12px 0px;
+}
+
+footer {
+	padding: 0px 12px;
+}
+
+.container a:hover { text-decoration: underline; }
+
+/* Tabellen */
+.fullwidth-page table {
+	border: none;
+}
+
+.fullwidth-page table td {
+	text-align: left;
+	border: none;
+	background: none;
+	font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important;
+  font-size: 16px;
+	color: #FFF;
+	padding: 9px 0px 5px 0px;
+}
+
+.fullwidth-page .termine > tbody > tr:first-child > td:first-child {
+	width: 180px;
+}
+
+.fullwidth-page .termine {
+	border: 1px solid #343434;
+  font-size: 14px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+
+.fullwidth-page .bgTermine {
+	background-color: rgba(236,184,0,0.7);
+}
+
+
+/* Formulare */
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+background-color: #1b1b1b; font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif; border: 1px solid #666666; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: #666666; display: block; font-size: 16px; margin: 0 0 12px 0; padding: 7px; height: 30px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; }
+input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize { font-size: 17px; padding: 4px 6px; }
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus { background: #222; outline: none !important; border-color: #FFF; }
+input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled] { background-color: #ddd; }
+textarea { height: auto;}
+
+input[type="submit"] { font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important; font-size: 16px; bold; color: #FFF !important; }
+
+#cssmenu > ul > li > a > span {
+  font-size: 18px;
+}
+
+#cssmenu ul ul li.even {
+	background-color: #404040;
+}
+
+#cssmenu ul ul li.odd {
+	background-color: #404040;
+}
+
+#cssmenu ul ul a {
+	font-size: 16px;
+}
+
+/*tabelle*/
+    /* columns of same height styles */
+.rowTable {
+  border-bottom:1px solid #343434;
+  padding: 6px 0.0%;
+}
+.row-full-height {
+  height: 100%;
+}
+.col-full-height {
+  height: 100%;
+  vertical-align: top;
+  border-top:1px solid #343434;
+  border-left:1px solid #343434;
+  padding: 4px 1.2%;
+}
+
+.col-full-height:last-child {
+  border-right:1px solid #343434;
+}
+
+.col-full-height:first-child {
+  width:22%;
+}
+
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+
+.col-xs-height {
+  display: table-cell;
+  float: none !important;
+}
+
+.itemHead {
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(236,184,0,0.7);
+  line-height: 1.5;
+}
+
+.itemContent {
+  font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important;
+  color: #fff;
+  line-height: 1.5;
+}
+
+
+.itemContent a {
+  color: #ECB800 !important;
+}
+
+#itemContentAGB a {
+  color: #ECB800 !important;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.terminlink:hover {
+	color: #ECB800  !important;
+	text-decoration: none;
+}
+
+
+/*#woocommerce plugin css*/
+/************************/
+
+/*übersicht*/
+/************************/
+
+.woocommerce * {
+	font-family: 'Proxima Nova Soft W03 Reg', 'Helvetica', 'Helvetica Neue', sans-serif !important;
+}
+
+.woocommerce h1,
+.woocommerce h2,
+.woocommerce h3,
+.woocommerce h4 {
+	font-family: 'Oswald', 'Helvetica Neue', 'Helvetica', sans-serif !important;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    border: 1px solid #343434;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.woocommerce .woocommerce-info a {
+	color: #ECB800 !important;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    min-height: 560px;
+}
+
+
+/*detail*/
+/************************/
+
+
+.woocommerce div.product div.images,
+.woocommerce div.product div.summary {
+    margin-bottom: 2em;
+    border: 1px solid #646464;
+    padding: 0.8em;
+		text-align: right;
+}
+
+.woocommerce div.product div.summary span a {
+    color: #ECB800 !important;
+}
+
+.woocommerce div.product div.summary span {
+    font-size: 13px;
+		line-height: 20px;
+}
+
+
+
+.woocommerce div.product p.stock {
+    margin: 10px;
+		line-height: normal;
+}
+
+.woocommerce .single_variation {
+    display: inline-block;
+    position: relative;
+		top:0px;
+
+}
+
+.woocommerce div.product form.cart a.reset_variations {
+    color: #ECB800 !important;
+		font-size: 12px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.description_tab,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.additional_information_tab {
+    border-bottom:0px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.description_tab.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.additional_information_tab.active  {
+    border-top:1px solid #646464;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    font-weight: normal;
+}
+
+.woocommerce div.product .product_title {
+    font-size: 25px;
+		background-color: #0A0A0A;
+		text-align: center;
+		padding:0.1em;
+}
+
+
+.woocommerce #respond input#submit.alt.disabled,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt:disabled[disabled],
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+.woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt:disabled[disabled],
+.woocommerce a.button.alt:disabled[disabled]:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt:disabled[disabled],
+.woocommerce input.button.alt:disabled[disabled]:hover {
+    background-color: #ECB800;
+    color: #fff;
+
+}
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled, .woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {
+			padding: 0.8em 1em;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background: #0A0A0A;
+}
+
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message,
+.woocommerce-info,
+.woocommerce-message
+ {
+    border-top-color: #ECB800;
+}
+
+.woocommerce-message:before {
+    content: "\e015";
+    color: #ECB800;
+}
+
+.woocommerce-error:before, .woocommerce-info:before, .woocommerce-message:before {
+    font-family: FontAwesome;
+    content: "\f05a";
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+}
+
+.woocommerce-info:before {
+    color: #ECB800;
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-error li,
+.woocommerce .woocommerce-info li,
+.woocommerce .woocommerce-message li {
+    font-size: 12px;
+		font-weight: normal;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce .button {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+		text-transform: uppercase;
+		background: #ECB800;
+    text-align: center;
+    padding: 0.8em 1em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+		margin:0px;
+		font-size:11px;
+		letter-spacing: 1px;
+		float:right;
+		width: auto;
+}
+
+
+
+.woocommerce div.product form.cart .variations label {
+    font-weight: normal;
+}
+
+.woocommerce div.product p.price span {
+    font-size: 1.5em !important;
+    white-space: nowrap;
+    line-height: 1.6em;
+		color: #ECB800;
+    font-weight: normal;
+}
+
+
+.woocommerce div.product form.cart table label {
+    font-size: 13px;
+		cursor: default;
+}
+
+
+
+.woocommerce div.product form.cart .variations td.label {
+    padding: 9px 15px 0 0;
+    font-weight: bold;
+    text-decoration: none;
+		line-height:200%;
+		text-align: left;
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    bottom: 1px;
+    color: #fff;
+    background: none;
+}
+
+
+/*summery*/
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: right;
+    width: 48%;
+    padding: 0.8em;
+    background-color: rgba(0,0,0,0.5);
+		margin-bottom: 20px;
+		font-size:14px;
+		font-weight: normal;
+}
+@media screen and (max-width:769px) {
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+	    width: 100%;
+	}
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+    width: auto;
+    padding: 8px 6px 5px;
+    height: 33px;
+    font-size: 13px;
+}
+
+.woocommerce-cart table.cart input, .woocommerce-checkout table.cart input {
+    padding: 0.8em 1em;
+}
+
+.woocommerce table.shop_table {
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+
+.woocommerce table.shop_table th {
+    padding: 9px 12px;
+    text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border-top: 1px solid rgba(238, 238, 238, 0.35);
+		font-size: 14px;
+		background-color: #1b1b1b;
+		color: #666;
+}
+
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th,
+.woocommerce table.shop_table.shop_table_responsive td,
+.woocommerce table.shop_table.shop_table_responsive tfoot th,
+.woocommerce table.shop_table.shop_table_responsive th,
+.woocommerce table.shop_table.customer_details th   {
+    border-top: 1px solid rgba(238, 238, 238, 0.10);
+}
+
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table.shop_table_responsive td {
+    padding: 9px 12px;
+    text-align: center;
+		background-color: rgba(0, 0, 0, 0.75);
+		color: #A9A9A9;
+}
+
+
+
+span.woocommerce-Price-amount.amount {
+    color: #ECB800 !important;
+}
+
+
+/*kasse*/
+
+
+.woocommerce .select2-container .select2-choice>.select2-chosen {
+    color: #1b1b1b;
+		font-size: 13px;
+}
+
+.woocommerce .select2-results li {
+    color: grey !important;
+}
+
+.select2-search input[type="text"] {
+    background-color: #1b1b1b !important;
+		font-size: 13px;
+}
+
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+	border-top: 3px solid #ECB800;
+	background-color: #1b1b1b;
+}
+
+.woocommerce-checkout #payment div.payment_box p {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+#add_payment_method #payment div.payment_box:before,
+.woocommerce-cart #payment div.payment_box:before,
+.woocommerce-checkout #payment div.payment_box:before {
+    content: "";
+    display: block;
+    border: 1em solid #ECB800;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    top: -.95em;
+    left: 0;
+    margin: -1em 0 0 2em;
+}
+
+#add_payment_method .cart-collaterals .cart_totals table,
+.woocommerce-cart .cart-collaterals .cart_totals table,
+.woocommerce-checkout .cart-collaterals .cart_totals table {
+    border: 0px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table td {
+    padding: 9px 12px;
+    text-align: center;
+		background-color: rgba(0, 0, 0, 0.75);
+		color: #A9A9A9;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li.payment_method_paypal img {
+    display: inline-block;
+    border: 3px solid #ECB800;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li a {
+		color:#ECB800 !important;
+}
+
+.woocommerce ul.woocommerce-thankyou-order-details.order_details li {
+    font-size: 12px;
+}
